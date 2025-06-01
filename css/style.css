@@ -100,10 +100,10 @@ p {
 }
 .navbar .navbar-toggler {
   padding: 8px 8px;
-  border: 1px solid #6ba5d9;
+  border: 1px solid #fff;
 }
 .navbar .navbar-toggler i {
-  color: #6ba5d9;
+  color: #fff;
 }
 .navbar .navbar-toggler:focus {
   box-shadow: none;
@@ -123,8 +123,17 @@ p {
   color: #0F2841;
   font-size: 18px;
 }
-.navbar #navbarmanta a:hover, .navbar #navbarmanta a:focus, .navbar #navbarmanta a.active {
-  color: #3380B4;
+@media (max-width: 768px) {
+  .navbar #navbarmanta a {
+    color: #0F2841;
+  }
+}
+.navbar #navbarmanta a.active {
+  text-decoration: none;
+  color: #3380b4;
+}
+.navbar #navbarmanta a:hover, .navbar #navbarmanta a:focus, .navbar #navbarmanta a:active {
+  color: #3380b4;
 }
 .navbar .btn-con-desk {
   display: block;
@@ -188,6 +197,11 @@ p {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
+}
+@media (max-width: 768px) {
+  .navbar.subpage #navbarmanta a {
+    color: #0F2841;
+  }
 }
 .navbar.subpage #navbarmanta a.active {
   text-decoration: none;
