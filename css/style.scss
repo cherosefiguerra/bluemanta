@@ -1592,6 +1592,17 @@ footer{
                 }
                 
             }
+
+            a{
+                color: $text-colorwhite;
+                text-decoration: none;
+
+                i{
+                    width: 25px;
+                    display: inline-block;
+                }
+                
+            }
         }
     }
 

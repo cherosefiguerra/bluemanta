@@ -1341,6 +1341,14 @@ footer ul li {
   list-style: none;
   padding: 5px 0px;
 }
+footer ul li p {
+  color: #fff;
+  text-decoration: none;
+}
+footer ul li p i {
+  width: 25px;
+  display: inline-block;
+}
 footer ul li a {
   color: #fff;
   text-decoration: none;
