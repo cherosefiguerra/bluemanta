@@ -629,6 +629,9 @@ p{
         .card{
             background-color: #f7f7f7;padding: 30px; border-radius: 25px;
             border: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
 
     
             h3{
@@ -1025,17 +1028,17 @@ p{
     }
 
     .brands-slideshow {
-        height: 104px;
+        height: 250px;
         max-width: 100%;
         margin: 50px auto auto auto;
         position: relative;
         overflow: hidden;
 
         .mover-2 {
-            height: 120px;
+            height: 250px;
             width: 10000px;
             position: absolute;
-            overflow-x:hidden;
+            /*overflow-x:hidden;*/
             top: 0;
             left: 0;
             animation: moveSlideshow 10s linear infinite reverse;
@@ -1044,7 +1047,7 @@ p{
             .mover-2 img {
             display:inline-block;
             vertical-align:middle;
-            width: 200px;
+            width: 500px;
             height: auto;
             padding: 10px;
             opacity: .6;
@@ -1530,6 +1533,12 @@ p{
         color: $text-colorwhite;
     }
 
+    .iconcheck{
+        color: $text-colorwhite;
+        font-size: 35px;
+    }
+
+
     .map_con{
         iframe{
             width: 100%;
@@ -1642,5 +1651,8 @@ footer{
     
     
 }
+
+
+  
 
 

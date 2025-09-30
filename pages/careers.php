@@ -1,3 +1,39 @@
+<style>
+    .custom-file-button {
+        input[type="file"] {
+            margin-left: -2px !important;
+
+            &::-webkit-file-upload-button {
+                display: none;
+            }
+
+            &::file-selector-button {
+                display: none;
+            }
+        }
+
+        &:hover {
+            label {
+                background-color: #dde0e3;
+                cursor: pointer;
+            }
+        }
+
+        .btn-primary {
+            background-color: #5DAAF8;
+            border: 0px;
+            border-radius: 5px;
+            color: #fff !important;
+
+        }
+
+        .btn-primary:hover {
+            background-color: #3380B4;
+
+        }
+    }
+</style>
+
 <section class="sp-1stcon-subpage">
     <div class="container">
 
@@ -30,6 +66,107 @@
             <div class="col-12">
                 <div class="card-grid">
                     <div class="card">
+                        <!--<a href="#careersdetails" class="cardanchor" target="_blank"></a>-->
+
+                        <div class="row d-flex justify-content-between align-content-center">
+
+                            <div class="col">
+                                <h3>REGULATORY PHARMACIST</h3>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 mt-3 " style="min-height: 40%;">
+                                <ul>
+                                    <li>Licensed Pharmacist with valid PRC license</li>
+                                    <li>With knowledge in regulatory affairs within the pharmaceutical or healthcare
+                                        industry</li>
+                                    <li>Experience in a pharmaceutical distribution company is an advantage</li>
+                                    <li>Excellent communication and coordination skills</li>
+                                    <li>Ability to work independently and meet strict deadlines</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="formbold-main-wrapper">
+                                    <div class="formbold-form-wrapper">
+                                        <form action="pages/application.php" method="POST"
+                                            enctype="multipart/form-data">
+                                            <div class="mb-6 pt-2">
+                                                <div class="input-group custom-file-button">
+                                                    <label class="input-group-text" for="inputGroupFile">Upload
+                                                        Resume</label>
+                                                    <input type="file" class="form-control" id="inputGroupFile"
+                                                        name="resume" />
+                                                    <button type="submit" class="btn btn-primary"
+                                                        name="btn_pharmacist">Apply Now</button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card">
+                        <!--<a href="#careersdetails" class="cardanchor" target="_blank"></a>-->
+
+                        <div class="row d-flex justify-content-between align-content-center">
+
+                            <div class="col">
+                                <h3>MEDICAL SALES REPRESENTATIVE</h3>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 mt-3" style="min-height: 40%;">
+                                <ul>
+                                    <li>Bachelor’s degree in Information Technology, Medical Equipment Technology, or
+                                        any related field</li>
+                                    <li>Willing to travel and to be trained</li>
+                                    <li>Strong communication and interpersonal skills</li>
+                                    <li>Experience in sales or customer interaction is an advantage</li>
+                                    <li>Passionate, hardworking, ambitious, strongly self-motivated, and equipped with a
+                                        strong problem-solving mindset</li>
+                                    <li>Fresh graduates are welcome to apply, preferably IT or medical-related courses
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="formbold-main-wrapper">
+                                    <div class="formbold-form-wrapper">
+                                        <form action="pages/application.php" method="POST"
+                                            enctype="multipart/form-data">
+                                            <div class="mb-6 pt-2">
+                                                <div class="input-group custom-file-button">
+                                                    <label class="input-group-text" for="inputGroupFile">Upload
+                                                        Resume</label>
+                                                    <input type="file" class="form-control" id="inputGroupFile"
+                                                        name="sales_rep_resume" />
+                                                    <button type="submit" class="btn btn-primary"
+                                                        name="btn_sales_rep">Apply Now</button>
+                                                </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--
+                    <div class="card">
                         <a href="#careersdetails" class="cardanchor" target="_blank"></a>
 
                         <div class="row d-flex justify-content-between align-content-center">
@@ -184,6 +321,8 @@
                             </div>
                         </div>
                     </div>
+                    -->
+
                 </div>
             </div>
         </div>
@@ -191,91 +330,64 @@
 </section>
 
 
-<section class="sp-2ncon">
+
+
+<section class="sp-needassistance-subpage mt-5">
     <div class="container">
-        <div class="row ">
-
-            <div class="col-12">
-                <div class="brands-slideshow">
-                    <div class="mover-2">
-                        <img src="img/brand/1.png" class="img-responsive" />
-                        <img src="img/brand/2.png" class="img-responsive" />
-                        <img src="img/brand/3.png" class="img-responsive" />
-                        <img src="img/brand/4.png" class="img-responsive" />
-                        <img src="img/brand/5.png" class="img-responsive" />
-                        <img src="img/brand/6.png" class="img-responsive" />
-                        <img src="img/brand/7.png" class="img-responsive" />
-                        <img src="img/brand/8.png" class="img-responsive" />
-                        <img src="img/brand/9.png" class="img-responsive" />
-
-                        <img src="img/brand/10.png" class="img-responsive" />
-                        <img src="img/brand/11.png" class="img-responsive" />
-                        <img src="img/brand/12.png" class="img-responsive" />
-                        <img src="img/brand/13.png" class="img-responsive" />
-                        <img src="img/brand/14.png" class="img-responsive" />
-                        <img src="img/brand/15.png" class="img-responsive" />
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="sp-needassistance-subpage">
-    <div class="container">
-
-        <div class="row d-flex justify-content-center align-content-center">
-            <div class="col-12">
-                <hr>
-            </div>
-        </div>
-
-        <div class="row d-flex justify-content-center align-content-center mt-3">
+        <div class="row d-flex justify-content-center align-content-center mt-5">
             <div class="col-12 title">
-                <p>Didn’t find an answer?</p>
-                <h2>Need an Asistant?</h2>
+                <p>Ready to Apply?</p>
+                <h2>Get in Touch With Us!</h2>
 
             </div>
         </div>
 
-        <div class="row d-flex justify-content-center align-items-center mt-3">
+        <div class="row d-flex justify-content-center align-items-center">
 
             <div class="col-12">
                 <div class="card-grid">
                     <div class="card">
                         <div class="row d-flex justify-content-between align-items-center">
-                            <div class="col-auto p-0">
-                                <div class="icon_circle">
-                                    <i class="bi bi-phone"></i>
-                                </div>
+                            <div class="col-auto box">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="col-auto">
+                                        <div class="buttons">
+                                            <a class="facebook" href="mailto:chqtrading.hrdlucena@gmail.com"
+                                                target="_blank"><i class="fa fa-envelope"></i></a>
+                                        </div>
 
-                            </div>
-                            <div class="col">
-                                <h3>Call Us</h3>
-                                <p>We are available online from 8:00am to 5:00pm. </p>
+
+                                    </div>
+                                    <div class="col">
+                                        <p>&nbsp;chqtrading.hrdlucena@gmail.com</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="row d-flex justify-content-between align-items-center">
 
-                            <div class="col">
-                                <p>Connect With Us</p>
-                            </div>
-                            <div class="col">
-                                <div class="buttons">
-                                    <a class="facebook" href="https://www.facebook.com/profile.php?id=61570587601666"
-                                        target="_blank"><i class="fa fa-facebook"></i></a>
-                                    <a class="facebook" href="mailto:info@bluemantacorp.com" target="_blank"><i
-                                            class="fa fa-envelope"></i></a>
-                                    <a class="facebook" href="tel:09175560049" target="_blank"><i
-                                            class="fa fa-phone"></i></a>
+
+
+                            <div class="col-auto box">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="col-auto">
+                                        <div class="buttons">
+                                            <a class="facebook"
+                                                href="https://www.facebook.com/profile.php?id=61570587601666"
+                                                target="_blank"><i class="fa fa-facebook"></i></a>
+                                        </div>
+
+                                    </div>
+                                    <div class="col">
+                                        <p>&nbsp;Blue Manta OPC</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
 
